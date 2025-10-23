@@ -1,60 +1,60 @@
-🧾 Notes — Python Sales Data Analysis Project
-📘 Dataset Reference
+🧾 **Notes — Python Sales Data Analysis Project**
+📘 **Dataset Reference**
 
-The dataset used in this analysis is sourced from Kaggle:
+ - The dataset used in this analysis is sourced from Kaggle:
 /kaggle/input/vijayarani-t-final-test1/sales_dataset.xlsx - Sheet1.csv
 
-It contains detailed sales transactions, including:
+_**It contains detailed sales transactions, including:**_
 
-Order IDs, product categories, and quantities sold
+ - Order IDs, product categories, and quantities sold
 
-Revenue, order status (valid/cancelled), and fulfillment details
+ - Revenue, order status (valid/cancelled), and fulfillment details
 
-Customer type (B2B/B2C), region, and date of purchase
+ - Customer type (B2B/B2C), region, and date of purchase
 
-🧩 Objective
+🧩 **Objective**
 
-To perform Exploratory Data Analysis (EDA) using Python to:
+ - To perform Exploratory Data Analysis (EDA) using Python to:
 
-Understand sales performance and category trends
+ - Understand sales performance and category trends
 
-Calculate Average Order Value (AOV) and Cancellation Rate
+ - Calculate Average Order Value (AOV) and Cancellation Rate
 
-Detect high-performing products and seasonal sales patterns
+ - Detect high-performing products and seasonal sales patterns
 
-Prepare data insights for visualization and storytelling
+ - Prepare data insights for visualization and storytelling
 
-🛠️ Tools & Libraries Used
+🛠️ **Tools & Libraries Used**
 
-Python (Data Cleaning & Analysis)
+ - Python (Data Cleaning & Analysis)
 
-Pandas, NumPy (Data manipulation)
+ - Pandas, NumPy (Data manipulation)
 
-Matplotlib, Seaborn (Visualization)
+ - Matplotlib, Seaborn (Visualization)
 
-Jupyter Notebook (Exploration & Documentation)
+ - Jupyter Notebook (Exploration & Documentation)
 
-📊 Key Steps
+📊 **Key Steps**
 
-Imported and validated the dataset from the Kaggle source.
+ - Imported and validated the dataset from the Kaggle source.
 
-Cleaned and formatted data (handled nulls, normalized column names, removed outliers).
+ - Cleaned and formatted data (handled nulls, normalized column names, removed outliers).
 
-Created new calculated fields (e.g., Valid Amount, AOV, Cancellation Rate).
+ - Created new calculated fields (e.g., Valid Amount, AOV, Cancellation Rate).
 
-Visualized sales trends, category performance, and order status using charts.
+ - Visualized sales trends, category performance, and order status using charts.
 
-🔍 Key Insights
+🔍 **Key Insights**
 
-Set and Kurta were the top revenue-generating categories.
+ - Set and Kurta were the top revenue-generating categories.
 
-Overall Average Order Value (AOV) ≈ ₹545.
+ - Overall Average Order Value (AOV) ≈ ₹545.
 
-Cancellation Rate ~14%, primarily due to fulfillment or seasonal demand shifts.
+ - Cancellation Rate ~14%, primarily due to fulfillment or seasonal demand shifts.
 
-Sales peaked during April–May, reflecting strong seasonal demand.
+ - Sales peaked during April–May, reflecting strong seasonal demand.
 
-🚀 Outcome
+🚀 **Outcome**
 
 This Python-based analysis provided a data foundation for creating an interactive business insights visualization using matplotlib, linking raw data exploration with business storytelling.
 
