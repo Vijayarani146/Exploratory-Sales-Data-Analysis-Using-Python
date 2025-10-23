@@ -1,58 +1,61 @@
 # Exploratory-Sales-Data-Analysis-Using-Python
-Exploratory Data Analysis (EDA) of Sales Dataset Using Python. Performed data cleaning, transformation, and exploratory data analysis using Python (Pandas, NumPy, Matplotlib, Seaborn) to uncover sales trends, high-demand products, and seasonal patterns for better business decision-making.
+- Exploratory Data Analysis (EDA) of Sales Dataset Using Python. Performed data cleaning, transformation, and exploratory data analysis using Python (Pandas, NumPy, Matplotlib, Seaborn) to uncover sales trends, high-demand products, and seasonal patterns for better business decision-making.
 
-🧩 Exploratory Sales Data Analysis Using Python
+🧩 **Exploratory Sales Data Analysis Using Python**
 
-Uncovering sales trends, product performance, and customer behavior through data-driven insights.
+ - Uncovering sales trends, product performance, and customer behavior through data-driven insights.
 
-📘 Project Overview
+📘**Project Overview**
 
-This project focuses on analyzing a sales dataset (apparel/dress sales) to uncover key insights about revenue trends, product demand, cancellations, and seasonal variations.
-Using Python for data cleaning, transformation, and exploratory data analysis (EDA), the goal was to convert raw sales data into actionable business intelligence.
+ - This project focuses on analyzing a sales dataset (apparel/dress sales) to uncover key insights about revenue trends, product demand, cancellations, and seasonal variations.
+ - Using Python for data cleaning, transformation, and exploratory data analysis (EDA), the goal was to convert raw sales data into actionable business intelligence.
 
-🎯 Objectives
+🎯 **Objectives**
 
-Analyze overall sales performance and revenue distribution.
+- Analyze overall sales performance and revenue distribution.
 
-Identify top-performing products and low-demand categories.
+- Identify top-performing products and low-demand categories.
 
-Evaluate order cancellations and their impact on business.
+- Evaluate order cancellations and their impact on business.
 
-Understand seasonal demand patterns for better stock management.
+- Understand seasonal demand patterns for better stock management.
 
-Derive insights to support strategic decision-making.
+- Derive insights to support strategic decision-making.
 
-🛠️ Tools & Technologies
-Category	Tools Used
-Programming	Python
-Libraries	Pandas, NumPy, Matplotlib, Seaborn
-Environment	Jupyter Notebook / VS Code
-Dataset	CSV-based Excel Dress Sales Dataset
-🔍 Key Analysis Performed
+🛠️ **Tools & Technologies**
 
-Data cleaning and formatting (handling nulls, renaming columns, removing outliers).
+ - Category	Tools Used
+ - Programming	Python
+ - Libraries	Pandas, NumPy, Matplotlib, Seaborn
+ - Environment	Jupyter Notebook / VS Code
+ - Dataset	CSV-based Excel Dress Sales Dataset
 
-Sales trend analysis (monthly, category-wise, product-wise).
+🔍 **Key Analysis Performed**
 
-Cancellation and return analysis to assess operational efficiency.
+ - Data cleaning and formatting (handling nulls, renaming columns, removing outliers).
 
-Average Order Value (AOV) and revenue distribution calculations.
+ - Sales trend analysis (monthly, category-wise, product-wise).
 
-Visualizations to identify seasonal patterns and high-demand categories.
+ - Cancellation and return analysis to assess operational efficiency.
 
-📈 Key Insights
+ - Average Order Value (AOV) and revenue distribution calculations.
 
-Set and Kurta were the top-performing categories, driving maximum revenue.
+ - Visualizations to identify seasonal patterns and high-demand categories.
 
-Cancellation Rate ~14%, highlighting fulfillment and quality issues.
+📈 **Key Insights**
 
-April–May were peak sales months — inventory planning needed for these periods.
+ - Set and Kurta were the top-performing categories, driving maximum revenue.
 
-B2B customers showed a higher average spend per order compared to B2C.
+ - Cancellation Rate ~14%, highlighting fulfillment and quality issues.
 
-Seasonal variation and demand trends suggest potential for targeted campaigns.
+ - April–May were peak sales months — inventory planning needed for these periods.
 
-🧮 Sample Python Code Snippets
+ - B2B customers showed a higher average spend per order compared to B2C.
+
+ - Seasonal variation and demand trends suggest potential for targeted campaigns.
+
+🧮 **Sample Python Code Snippets**
+
 # Load and explore the dataset
 import pandas as pd
 df = pd.read_excel("/kaggle/input/vijayarani-t-final-test1/sales_dataset.xlsx - Sheet1.csv")
@@ -72,24 +75,26 @@ import matplotlib.pyplot as plt
 df.groupby('Month')['Amount'].sum().plot(kind='line', marker='o', title='Monthly Sales Trend')
 plt.show()
 
-📊 Results Summary
-KPI	Value	Description
-Total Revenue	₹72M	Total valid sales after cancellations
-Total Orders	120K+	Unique orders analyzed
-Average Order Value (AOV)	₹545	Avg. customer spend per order
-Cancellation Rate	14.29%	Percentage of cancelled orders
-Peak Months: April–May	Highest demand period
-🚀 Next Steps & Future Enhancements
+📊 **Results Summary**
 
-Automate insights extraction with Python dashboards (e.g., Streamlit).
+ - KPI	Value	Description
+ - Total Revenue	₹72M	Total valid sales after cancellations
+ - Total Orders	120K+	Unique orders analyzed
+ - Average Order Value (AOV)	₹545	Avg. customer spend per order
+ - Cancellation Rate	14.29%	Percentage of cancelled orders
+ - Peak Months: April–May	Highest demand period
 
-Apply predictive modeling to forecast future sales.
+🚀**Next Steps & Future Enhancements**
 
-Integrate product review and feedback data for sentiment-based insights.
+ - Automate insights extraction with Python dashboards (e.g., Streamlit).
 
-Connect this analysis with the Power BI visualization project for storytelling dashboards.
+ - Apply predictive modeling to forecast future sales.
 
-🏁 Conclusion
+ - Integrate product review and feedback data for sentiment-based insights.
+
+ - Connect this analysis with the Power BI visualization project for storytelling dashboards.
+
+🏁 **Conclusion**
 
 This project demonstrates how Python-based data analytics can transform raw sales data into meaningful insights for decision-making.
 It forms the analytical foundation for a Power BI dashboard, showcasing interactive storytelling and business impact visualization.
@@ -97,6 +102,7 @@ It forms the analytical foundation for a Power BI dashboard, showcasing interact
 📬 Contact
 
 Vijayarani T
+
 📧 Email: vijimusic11@gmail.com
 
 🌐 GitHub: https://github.com/Vijayarani146/
