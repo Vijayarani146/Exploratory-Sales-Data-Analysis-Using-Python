@@ -90,13 +90,13 @@ _**Created KPIs:**_
 
  - **Average Order Value (AOV):** _₹545_
 
- - **Cancellation Rate:**_ ~14.3%_
+ - **Cancellation Rate:**_~14.3%_
 
  - **Top Categories:** _Set and Kurta dominated sales across all months._
 
  - **Seasonality:** _Sales peaked during **April–May**, showing clear seasonal trends._
 
- - **Fulfillment:**_ Amazon channel maintained faster shipping timelines (1–2 days)._
+ - **Fulfillment:**_Amazon channel maintained faster shipping timelines (1–2 days)._
 
  - **Customer Behavior:** _B2B orders, though fewer, had a higher average spend per order._
 
@@ -123,6 +123,10 @@ _**Created KPIs:**_
 This project demonstrates the power of Python in transforming raw sales data into actionable insights.
 The findings formed the analytical base for a Power BI storytelling dashboard, bridging technical analysis and business strategy.
 
+✅ “Data tells stories — Python helps reveal them.”
+
+✅ “Turning raw data into visual insights through Python analytics.”
+
 👩‍💻 Author
 
 Vijayarani T
@@ -132,7 +136,3 @@ Vijayarani T
 🔗 GitHub: https://github.com/Vijayarani146/
 
 🔗 Kaggle: https://www.kaggle.com/code/vijayaranit/final-project-vijayarani-t/
-
-✅ “Data tells stories — Python helps reveal them.”
-
-✅ “Turning raw data into visual insights through Python analytics.”
