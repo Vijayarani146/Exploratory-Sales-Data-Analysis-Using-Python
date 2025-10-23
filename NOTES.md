@@ -1,8 +1,11 @@
 🧾 **Notes — Python Sales Data Analysis Project**
 📘 **Dataset Reference**
 
- - The dataset used in this analysis is sourced from Kaggle:
-/kaggle/input/vijayarani-t-final-test1/sales_dataset.xlsx - Sheet1.csv
+ _The dataset used in this analysis is sourced from Kaggle:_
+  
+ - https://www.kaggle.com/code/vijayaranit/final-project-vijayarani-t/
+  
+ - /kaggle/input/vijayarani-t-final-test1/sales_dataset.xlsx - Sheet1.csv
 
 _**It contains detailed sales transactions, including:**_
 
